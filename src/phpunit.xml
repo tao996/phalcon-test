@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="phpunit-autoload.php"
+         colors="true"
+         cacheResult ="false"
+>
+    <testsuites>
+        <testsuite name="main">
+            <directory suffix="Test.php">controllers</directory>
+<!-- add other directory
+<directory suffix="Test.php">services</directory>
+-->
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+    </php>
+
+</phpunit>

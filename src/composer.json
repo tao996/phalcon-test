@@ -1,0 +1,26 @@
+{
+  "name": "tao996/phalcon-test",
+  "type": "project",
+  "description": "phalcon test demo.",
+  "version": "dev-0.0.1",
+  "keywords": [
+    "phalcon",
+    "php"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-gd": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.3",
+    "mockery/mockery": "^1.6"
+  },
+  "scripts": {
+  },
+  "extra": {
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
